@@ -1,0 +1,38 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+
+html, body {
+height: 100%;
+width: 100%;
+}
+
+nav{
+    margin: auto;
+    width: 50vh;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+    border: 1px solid green;
+}
+
+nav a{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    transition: .25s ease all;
+    font-weight: 500;
+}
+
+
+nav a:hover{
+    border-bottom: 2px solid black;
+}
